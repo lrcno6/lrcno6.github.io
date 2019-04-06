@@ -179,4 +179,14 @@ permalink: /github-jekyll.html
 
 确实没安装Jekyll,但我们仍然能用它。副标题可不是唬人的。
 
+---
+
+## 鸣谢
+
+感谢*GitHub*为我们提供了*GitHub Pages*这样方便的功能以及*GitHub Help*提供的许多帮助
+
+感谢*Jekyll*提供了静态*HTML*生成器
+
+感谢[W3school的HTML系列教程](http://www.w3school.com.cn/h.asp)以及[廖雪峰的JavaScript教程](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)提供了许多帮助
+
 by *lrcno6*

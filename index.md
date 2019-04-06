@@ -14,4 +14,25 @@ description: "GitHub address: https://github.com/lrcno6/lrcno6.github.io"
 			竟然不用安装Jekyll?
 		</td>
 	</tr>
+	<tr>
+		<td>
+			<h3>
+				<a href="/project.html">lrcno6的一些作品</a>
+			</h3>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h3>
+				<a href="/idm.html">IDM绿化版</a>
+			</h3>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h3>
+				<a href="/oranges.html">Orange'S:一个操作系统的实现及光盘源代码</a>
+			</h3>
+		</td>
+	</tr>
 </table>
