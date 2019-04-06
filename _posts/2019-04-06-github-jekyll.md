@@ -127,8 +127,9 @@ permalink: /github-jekyll.html
 	你可以通过直接查阅源代码,或者浏览器中的检查功能,找到default.html中设置主标题和副标题的标签。如: (可能不同)
 
 	```html
-	<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+	<!-- 两个大括号中间我添加了空格,不然就会变成这个博客的主标题和副标题 -->
+	<h1 class="project-name">{ { page.title | default: site.title | default: site.github.repository_name } }</h1>
+    <h2 class="project-tagline">{ { page.description | default: site.description | default: site.github.project_tagline } }</h2>
 	```
 
 	大致意思是说,如果这个page的标题非空(page.title),就使用它;否则用网站的标题(site.title)。如果网站标题也为空就使网站的*GitHub*仓库名
@@ -138,8 +139,8 @@ permalink: /github-jekyll.html
 	但这样做(至少个人认为)其实很蠢,有些多余,所以不如改成:
 
 	```html
-	<h1 class="project-name">{{ page.title }}</h1>
-    <h2 class="project-tagline">{{ page.description }}</h2>
+	<h1 class="project-name">{ { page.title } }</h1>
+    <h2 class="project-tagline">{ { page.description } }</h2>
 	```
 
 3. 修改文章标题(未测试)
