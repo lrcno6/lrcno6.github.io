@@ -1,6 +1,7 @@
 ---
 title: 在GitHub上用Jekyll搭建极简博客
 description: 竟然不用安装Jekyll?
+permalink: /github-jekyll.html
 categories: [Jekyll]
 tags: [GitHub Pages,Jekyll,blog,Markdown]
 ---
