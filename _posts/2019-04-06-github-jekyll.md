@@ -81,16 +81,12 @@ tags: [GitHub Pages,Jekyll,blog,Markdown]
 
 ## step 3:添加其它文章
 
-<!-- 其实只要在仓库中添加{filename}.md或{filename}.html即可(其实*HTML*文件本人并没有试验过) -->
-
-<!-- 地址就是https://{username}.github.io/{filename}.html或https://{username}.github.io/{repository-name}/{filename}.html -->
-
 (在这里讲添加post的做法)
 
 在仓库中添加_posts文件夹,下面就可以任意添加文件了,但必须加上日期。格式如下:
 
 ```
-{year}-{mm}-{dd}-{title}.md 或 {year}-{mm}-{dd}-{title}.html
+{year}-{mm}-{dd}-{title}.md
 ```
 
 
@@ -143,7 +139,7 @@ permalink: /github-jekyll.html
     <h2 class="project-tagline">{ { page.description } }</h2>
 	```
 
-3. 修改文章标题(未测试)
+3. 修改文章标题
 
 	这里的标题指的是*HTML*中title标签所指的标题
 
