@@ -26,11 +26,12 @@
 			<h1 class="project-name">{{ page.title }}</h1>
 			<h2 class="project-tagline">{{ page.description }}</h2>
 			<p><a href="https://lrcno6.github.io/"><font color="#dd8888">返回首页</font></a></p>
-			<p>
-				博客访问量:		
-				<a href="http://xyz.freelogs.com/stats/l/lrcno6/" target="_top"><img border="0" alt="free invisible web counter" src="http://xyz.freelogs.com/counter/index.php?u=lrcno6&s=a" ALIGN="middle" HSPACE="4" VSPACE="2"></a><script src=http://xyz.freelogs.com/counter/script.php?u=lrcno6></script>
-				<br><a href="http://freelogs.com/" target="_top"><font color="#dd8888">need this counter</font></a>
-			</p>
+			<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+			<span id="busuanzi_container_site_uv">
+				博客访问量:
+				<span id="busuanzi_value_site_uv"></span>
+			</span>
+			<p>使用<a href="https://busuanzi.ibruce.info/"><font color="#dd8888">不蒜子</font></a>计数器</p>
 			{% if site.github.is_project_page %}
 				<a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
 			{% endif %}
