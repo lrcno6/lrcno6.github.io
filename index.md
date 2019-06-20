@@ -8,6 +8,7 @@ description: "GitHub address: https://github.com/lrcno6/lrcno6.github.io"
 <style>
 	.box{
 		border:1px solid black;
+		padding:10px
 	}
 </style>
 <div class="box">
