@@ -15,6 +15,9 @@ description: "GitHub address: https://github.com/lrcno6/lrcno6.github.io"
 <div class="box">
 	<h3><a href="/learn-cpp/000.html">跟着<I>lrcno6</I>学<I>C/C++</I></a></h3>
 </div>
+<div class="box">
+	<h3><a href="/freeos/000.html"><I>Intel</I> 32位系列之操作系统编写</a></h3>
+</div>
 
 ## 我的文章
 
